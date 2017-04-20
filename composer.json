@@ -1,0 +1,25 @@
+{
+    "name": "curtisblackwell/laravel-blade-directive-yaml-injector",
+    "description": "A short description of what your package does",
+    "keywords": ["laravel","blade", "directives", "yaml"],
+    "homepage": "https://github.com/curtisblackwell/laravel-blade-directive-yaml-injector",
+    "license": "CC-BY-4.0",
+    "authors": [
+        {
+            "name": "Curtis Blackwell",
+            "email": "iam@curtisblackwell.com",
+            "homepage": "http://curtisblackwell.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.4.*",
+        "symfony/yaml": "3.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CurtisBlackwell\\": "src/"
+        }
+    }
+}
